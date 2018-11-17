@@ -1,3 +1,9 @@
+<?php
+
+phpinfo();
+
+?>
+
 <!doctype html>
 <html lang="es">
 <head>

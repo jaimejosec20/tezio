@@ -9,7 +9,7 @@ $_SESSION["usuar"]='';
 $_SESSION["ema_usu"]='';
 $_SESSION["tipusuar"]='';
 
-$hostname_localhost="35.203.1.198";
+$hostname_localhost="localhost";
 $database_localhost="museoagua";
 $username_localhost="root";
 $password_localhost="Tezio159sA";

@@ -13,6 +13,7 @@ $hostname_localhost="localhost";
 $database_localhost="museoagua";
 $username_localhost="root";
 $password_localhost="Tezio159sA";
+$link = '';
 
 //$var = (string)file_get_contents("visordata.php");
 //$porc = explode(" ", $var);

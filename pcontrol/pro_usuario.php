@@ -4,10 +4,10 @@ ini_set('display_errors', '1');
 
 session_start();
 
-$_SESSION[idusu];
-$_SESSION[usuar];
-$_SESSION[ema_usu];
-$_SESSION[tipusuar];
+$_SESSION['idusu'];
+$_SESSION['usuar'];
+$_SESSION['ema_usu'];
+$_SESSION['tipusuar'];
 
 $hostname_localhost="localhost";
 $database_localhost="museoagua";
@@ -16,7 +16,7 @@ $password_localhost="Tezio159sA";
 
 //$var = (string)file_get_contents("visordata.php");
 //$porc = explode(" ", $var);
-$link = mysqli_connect($hostname_localhost,$username_localhost,$password_localhost,$database_localhost);
+$link = mysqli_connect('$hostname_localhost','$username_localhost','$password_localhost','$database_localhost');
 //mysqli_select_db($link,$database_localhost);
 //$tildes = $link->query("SET NAMES 'utf8'");
 
